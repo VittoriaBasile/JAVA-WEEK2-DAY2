@@ -36,13 +36,13 @@ public class Application1 {
 				} else {
 					parole.add(parola);
 				}
-				System.out.println("set duplicati: " + duplicati);
-				System.out.println("numero di parole duplicate: " + duplicati.size());
-				System.out.println("set parole distinte: " + parole);
+
 			}
 
 		}
-
+		System.out.println("set duplicati: " + duplicati);
+		System.out.println("numero di parole duplicate: " + duplicati.size());
+		System.out.println("set parole distinte: " + parole);
 		scanner.close();
 	}
 
